@@ -1,0 +1,22 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Runtime files
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Logs and local tooling
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+.vscode/
+.idea/
